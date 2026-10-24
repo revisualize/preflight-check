@@ -9,6 +9,8 @@
 [![content-policy](https://github.com/revisualize/preflight-check/actions/workflows/content-policy.yml/badge.svg)](https://github.com/revisualize/preflight-check/actions/workflows/content-policy.yml)
 [![license: all rights reserved](https://img.shields.io/badge/license-all%20rights%20reserved-lightgrey)](LICENSE)
 
+**Project page:** [revisualized.com/projects/preflight-check](https://revisualized.com/projects/preflight-check)
+
 A manifest-driven environment checker that runs before real work does: required commands exist, paths are readable or writable, variables are set, disk has room, the clock is synced. Every failure is reported at once, in plain language, so a broken environment is a readable report instead of a mid-run mystery.
 
 The manifest is the point. A file of assumptions sitting next to the script it protects is documentation that executes.
